@@ -45,7 +45,7 @@ describe('map tests', () => {
     expect(results).equal(2);
   })
 
-  it.only('capitalize keywords in a phrase', () => {
+  it('capitalize keywords in a phrase', () => {
     let keywords = ["fish", "blue"]
     let saying = 'one fish two fish red fish blue fish'
      // your code goes here
