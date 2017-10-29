@@ -3,21 +3,18 @@ const expect = require('chai').expect
 
 describe('filter tests', () => {
 
-  it.skip('should pick the even numbers ', () => {
+  it('should pick the even numbers ', () => {
     const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    // your code goes here
     expect(results).to.deep.equal([2, 4, 6, 8, 10])
   });
 
-  it.skip('should pick the odd numbers ', () => {
+  it('should pick the odd numbers ', () => {
     const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-    // your code goes here
 
     expect(results).to.deep.equal([1, 3, 5, 7, 9])
   });
 
-  it.skip('should pick wordfs with three constteres ', () => {
+  it.skip('should pick words with three characters  ', () => {
     const words = ["pill", "bad", "finger", "cat", "blue", "dog", "table", "red"]
 
     // your code goes here
