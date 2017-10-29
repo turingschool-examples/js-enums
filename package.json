@@ -4,7 +4,7 @@
   "description": "a series of tests to help solidify javascript knowledge of arrays and objects",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha --compilers js:babel-core/register map filter reduce "
   },
   "keywords": [
     "mocha",
