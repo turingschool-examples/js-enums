@@ -2,6 +2,7 @@ import 'locus'
 import { expect } from 'chai'
 
 describe('map tests', () => {
+
   it('test you can upcase all strings' , () => {
     const words = ['meeka', 'jhun', 'brenna', 'steve'];
 
@@ -13,7 +14,7 @@ describe('map tests', () => {
   it.skip('should allow you to allow you to double numbers', () => {
     const numbers = [1, 2, 3, 4, 5, 6];
 
-    const doubleNumbers = numbers.map(number => )
+    const doubleNumbers = numbers.map(number => number )
     expect(doubleNumbers).to.deep.equal([2, 4, 6, 8, 10, 12]);
   });
 
