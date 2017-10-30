@@ -1,20 +1,20 @@
 import 'locus'
 import { expect } from 'chai'
-describe('map tests', () => {
 
-  it.skip('test you can upcase all strings' , () => {
+describe.skip('map tests', () => {
+  it('test you can upcase all strings' , () => {
     const words = ['meeka', 'jhun', 'brenna', 'steve'];
-    const upperCaseWords = words.map((word) =>  word.toUpperCase());
+
+    const upperCaseWords = words.map(word =>  word.toUpperCase());
+
     expect(upperCaseWords).to.deep.equal(['MEEKA','JHUN','BRENNA', 'STEVE']);
   });
 
   it.skip('should allow you to allow you to double numbers', () => {
-    const numbers = [1,2,3,4,5,6];
+    const numbers = [1, 2, 3, 4, 5, 6];
 
-    const doubleNumbers = numbers.map((number) => {
-      // your code goes here
-    });
-    expect(doubleNumbers).to.deep.equal([2,4,6,8,10,12]);
+    const doubleNumbers = numbers.map(number => )
+    expect(doubleNumbers).to.deep.equal([2, 4, 6, 8, 10, 12]);
   });
 
   it.skip('should square the numbers', () => {

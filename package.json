@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register",
-    "test-all":"mocha --compilers js:babel-core/register map filter reduce"
+    "test-all": "mocha --compilers js:babel-core/register map filter reduce"
   },
   "keywords": [
     "mocha",
