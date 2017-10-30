@@ -1,7 +1,7 @@
 import 'locus'
 import { expect } from 'chai'
 
-describe.skip('map tests', () => {
+describe('map tests', () => {
   it('test you can upcase all strings' , () => {
     const words = ['meeka', 'jhun', 'brenna', 'steve'];
 
