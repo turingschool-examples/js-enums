@@ -61,8 +61,8 @@ describe('map tests', () => {
                         }
 
     // your code goes here
-    expect(array).length.equal(3);
-    expect(array).to.deep.equal([
+    expect(arrayOfPeople.length).equal(3);
+    expect(arrayOfPeople).to.deep.equal([
                                  { id: 'key1', name: 'jhun', location: 'CA' },
                                  { id: 'key2', name: 'brenna', location: 'MN'},
                                  { id: 'key3', name: 'louisa', location: 'CO'}
