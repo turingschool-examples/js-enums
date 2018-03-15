@@ -38,10 +38,10 @@ describe('filter tests', () => {
   it.skip('should filter based off of strings from user ', () => {
     const userString = 'su';
     const messages = [{ user:'louisa', message: 'haaaaa' },
-                    { user:'yung-jhun', message: 'kewl dude' },
-                    { user: 'alter-nate', message:'suh kewl' },
-                    { user:'meeka', message: 'adfasuhlkj' },
-                    { user: 'robbie', message: 'im super loud' }];
+                      { user:'yung-jhun', message: 'kewl dude' },
+                      { user: 'alter-nate', message:'suh kewl' },
+                      { user:'meeka', message: 'adfasuhlkj' },
+                      { user: 'robbie', message: 'im super loud' }];
 
 
     expect(results).to.deep.equal([{ user: 'alter-nate', message:'suh kewl' },
@@ -51,10 +51,10 @@ describe('filter tests', () => {
 
   it.skip('should return the correct ids', () => {
     const data = [{ account: 'person 1', id: '00112' },
-                { account: 'person 2', id: '00045' },
-                { account: 'person 3', id: '12309' },
-                { account: 'person 4', id: '55931' },
-                { account: 'person 5', id: '90215' }];
+                  { account: 'person 2', id: '00045' },
+                  { account: 'person 3', id: '12309' },
+                  { account: 'person 4', id: '55931' },
+                  { account: 'person 5', id: '90215' }];
 
     const ids = ['00112', '90215', '12309'];
 

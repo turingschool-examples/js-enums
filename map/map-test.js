@@ -32,9 +32,9 @@ describe('map tests', () => {
     // your code goes here.
 
     expect(reverseStrings).to
-    .deep
-    .equal(["ecila", "bob", "eilrahc", "divad", "eve"]);
-  })
+                          .deep
+                          .equal(["ecila", "bob", "eilrahc", "divad", "eve"]);
+    })
 
   it.skip('should add key of swag and value of true to every object', () => {
     const  arrayOfObjects = [{ name:'jhun' }, { name: 'louisa' }];
