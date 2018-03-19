@@ -39,8 +39,8 @@ describe('map tests', () => {
 
     // your code goes here
 
-    expect(newObjects[0].swag).to.deep.equal(true);
-    expect(newObjects[1].swag).to.deep.equal(true);
+    expect(newObjects[0].swag).to.be.true;
+    expect(newObjects[1].swag).to.be.true;
   })
 
   it.skip('should return an array with the last character of each string', () => {
