@@ -10,8 +10,10 @@ describe('map tests', () => {
     expect(upperCaseWords).to.deep.equal(['MEEKA','JHUN','BRENNA', 'STEVE']);
   });
 
-  it.skip('should allow you to allow you to double numbers', () => {
+  it('should allow you to allow you to double numbers', () => {
     const numbers = [1, 2, 3, 4, 5, 6];
+
+    // your code goes here
 
     expect(doubleNumbers).to.deep.equal([2, 4, 6, 8, 10, 12]);
   });
@@ -39,8 +41,8 @@ describe('map tests', () => {
 
     // your code goes here
 
-    expect(newObjects[0].swag).to.deep.equal(true);
-    expect(newObjects[1].swag).to.deep.equal(true);
+    expect(newObjects[0].swag).to.be.true;
+    expect(newObjects[1].swag).to.be.true;
   })
 
   it.skip('should return an array with the last character of each string', () => {
