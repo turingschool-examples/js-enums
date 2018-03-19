@@ -1,4 +1,3 @@
-import 'locus'
 import { expect } from 'chai'
 
 describe('map tests', () => {
