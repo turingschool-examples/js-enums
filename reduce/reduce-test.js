@@ -3,12 +3,12 @@ import { expect } from 'chai'
 
 describe('map tests', () => {
 
-  it.skip('should add all the numbes together', () => {
+  it.skip('should add all the numbers together', () => {
     const numbers = [32, 1, 21, 5, 81, 333];
 
     // your code goes here
     
-    expect(result).to.equal(473);
+    expect(results).to.equal(473);
   });
 
   it.skip('should subtract all the numbers', () => {
@@ -19,7 +19,7 @@ describe('map tests', () => {
     expect(results).to.equal(-170);
   });
 
-  it.skip('should multiply a list of number', ()=> {
+  it.skip('should multiply a list of numbers', ()=> {
     const numbers = [2, 3, 5, 7];
 
     //initial value is 1
@@ -40,7 +40,6 @@ describe('map tests', () => {
   it.skip('all second values add together', () => {
     const elements = [["a", 1], ["b", 9], ["c", 21]];
 
-    // initial value is 10
     // your code goes here
     
     expect(results).to.equal(31);
